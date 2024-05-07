@@ -1,0 +1,26 @@
+<% layout("/layouts/boilerplate") %>
+
+<body>
+  <div class="row">
+    <div class="col-8 offset-3 mt-5 show-job">
+      <div class="card" style="width: 35rem">
+        <img
+          class="card-img-top  show-job-img"
+          src="<%= job.image.url %>"
+          alt="Card image cap"
+        />
+        <div class="card-body">
+          <h5 class="card-title"><%= job.title%></h5>
+          <p class="card-text"><%= job.description %></p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Organized By: <%= job.organization %></li>
+          <li class="list-group-item">Salary : <%= job.wage %></li>
+        </ul>
+        <div class="card-body applyBtn">
+          <a href="/job/<%= job._id %>/candidate" class="card-link">Apply</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>

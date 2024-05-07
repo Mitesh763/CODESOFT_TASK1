@@ -1,0 +1,22 @@
+<% layout("/layouts/boilerplate") %>
+
+<body>
+  <div class="row">
+    <h2 class="mt-3 mb-3">Find Your Dream Job</h2>
+    <% for(job of jobs) { %>
+    <!-- <form action="/job/<%= job._id %>"> -->
+      <div class="card allJob-card" style="width: 23rem">
+        <img 
+          class="card-img-top jobs-img"
+          src="<%= job.image.url %>"
+          alt="Card image cap"/>
+        <div class="card-body">
+          <h5 class="card-title"><%= job.title%></h5>
+          <p class="card-text"><%= job.description %></p>
+          <a href="/job/<%= job._id %>" class="btn btn-outline-secondary mb-3">Explore</a>
+        </div>
+      </div>
+    <!-- </form> -->
+    <%}%>
+  </div>
+</body>

@@ -1,0 +1,27 @@
+<% layout("/layouts/boilerplate") %>
+<div class="container">
+  <div class="row">
+    <h2 class="mt-4 mb-3 dash-head">Our Candidates</h2>
+    <div class="col-8 offset-3"  style="overflow:visible; display: flex; flex-direction: row; overflow-y: scroll ;">
+      <% for(application of applications) {%>
+      <ul class="list-group">
+        <li class="list-group-item"><%= application.name %></li>
+        <li class="list-group-item"><%= application.qualification %></li>
+      </ul>
+      &nbsp; &nbsp; <%}%>
+    </div>
+  </div>
+</div>
+<!-- <nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-end">
+    <li class="page-item disabled">
+      <a class="page-link" href="#" tabindex="-1">Previous</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#">Next</a>
+    </li>
+  </ul>
+</nav> -->

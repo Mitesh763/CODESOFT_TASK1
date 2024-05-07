@@ -1,0 +1,108 @@
+body{
+    background-color:aliceblue !important ;
+    font-family: sans-serif !important;
+}
+
+.applyBtn a{
+    padding: 0.5rem !important;
+    color: black !important;
+}
+
+.nav-right a , .applyBtn a {
+    text-decoration: none !important; 
+    border-right: 2px solid rgb(134, 134, 134) !important;
+    border-bottom: 2px solid rgb(134, 134, 134) !important;
+    border-left: 2px solid rgb(134, 134, 134) !important;
+    margin-left: 1rem;
+    border-radius: 1rem;
+}
+.nav-right a:hover , .applyBtn a:hover{
+    text-decoration: none !important; 
+    border-top: 3px solid rgb(104, 102, 102) !important;
+    border-right: 2px solid rgb(104, 102, 102) !important;
+    border-bottom: none !important;
+    border-left: 2px solid rgb(104, 102, 102) !important;
+    padding: 0.6rem;
+    margin-left: 1rem;
+    border-radius: 1rem;
+}
+.form-inline{
+    display: flex;
+    gap: 1rem;
+}
+
+.right{
+    display: flex;
+}
+
+.navbar{
+    padding: 0.5rem !important;
+    background-color: aliceblue !important;
+}
+
+.CARD-JOB{
+    display: flex;
+    /* gap: 5rem; */
+    /* justify-content: space-evenly; */
+}
+
+.card{
+    border: none !important;
+    margin: 0 0.2rem 2rem 0;
+}
+
+.card:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.jobs-img{
+    height: 45vh;
+    object-fit: cover;
+    width: 100% !important;
+}
+
+.card-img-top{
+    border-radius: 1rem !important;
+    object-fit: cover;
+}
+
+.card-body{
+    margin: 0 !important;
+    padding: 0.9rem 0 0 0 !important;
+}
+
+.list-group-items{
+    display: flex !important; 
+    justify-content: center !important;
+}
+
+.dash-head{
+    text-align: center !important;
+}
+
+.list-group li{
+    width: 10vw !important;
+}
+
+.show-job-img{
+    height: 40vh !important;
+    object-fit: cover;
+}
+
+.container-footer{
+    margin-top: 1rem;
+    text-align: center;
+    padding: 0.5rem;
+    background-color:rgb(231, 244, 255);
+}
+
+.show-row{
+    padding: 1.5rem;
+}
+
+.show-row-cont{
+    border-radius: 1rem;
+}
+.allJob-card img{
+    width: 100%;
+}

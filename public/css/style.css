@@ -22,7 +22,7 @@ body{
     border-right: 2px solid rgb(104, 102, 102) !important;
     border-bottom: none !important;
     border-left: 2px solid rgb(104, 102, 102) !important;
-    padding: 0.6rem;
+    padding: 0.rem;
     margin-left: 1rem;
     border-radius: 1rem;
 }

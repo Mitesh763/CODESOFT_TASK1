@@ -13,10 +13,10 @@
           <h5 class="card-title"><%= job.title%></h5>
           <p class="card-text"><%= job.description %></p>
         </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">Organized By: <%= job.organization %></li>
-          <li class="list-group-item">Salary : <%= job.wage %></li>
-        </ul>
+        <div class="card-body">
+          <h5 class="card-title">Organized By: <%= job.organiization %></h5>
+          <p class="card-text">Salary : <%= job.wage %></p>
+        </div>
         <div class="card-body applyBtn">
           <a href="/job/<%= job._id %>/candidate" class="card-link">Apply</a>
         </div>
